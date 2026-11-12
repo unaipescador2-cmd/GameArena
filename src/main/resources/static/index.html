@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GameArena: explora competiciones, gestiona jugadores e inscríbete en torneos de videojuegos. Proyecto de 2.º DAW conectado a una API REST.">
+  <title>Inicio | GameArena</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="header">
+    <div class="header-inner">
+      <a class="wordmark" href="#inicio" aria-label="GameArena, inicio">GAME<span>ARENA</span><b class="brand-dot">.</b></a>
+      <button class="menu-toggle secondary" id="menu-toggle" aria-expanded="false" aria-controls="navigation">Menú</button>
+      <nav id="navigation" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a><a href="#torneos">Torneos</a><a href="#videojuegos">Videojuegos</a><a href="#jugadores">Jugadores</a><a href="#participaciones">Participaciones</a>
+      </nav>
+      <span class="demo-tag" id="estado-api">● CONECTANDO…</span>
+    </div>
+  </header>
+  <main id="contenido" tabindex="-1"></main>
+  <footer class="footer">
+    <a class="wordmark small" href="#inicio">GAME<span>ARENA</span>.</a>
+    <p>DIW · 2.º DAW · 2026/2027<br><span>Datos servidos por la API de Spring Boot y guardados en H2.</span></p>
+    <a href="#guia">Guía de estilo <span aria-hidden="true">↗</span></a>
+  </footer>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div></dialog>
+  <div id="announcement" role="status" aria-live="polite"></div>
+</body>
+</html>

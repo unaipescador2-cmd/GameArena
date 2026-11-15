@@ -8,14 +8,14 @@
 
 <br>
 
-| | |
-|---|---|
-| **Creador** | Unai Pescador |
+| |                                                      |
+|---|------------------------------------------------------|
+| **Creador** | Unai Pescador                                        |
 | **Curso** | 2.º DAW (Desarrollo de Aplicaciones Web) · 2026/2027 |
-| **Módulo** | Desarrollo Web en Entorno Cliente |
-| **Centro** | [Nombre del centro] |
-| **Fecha** | 14 de noviembre de 2026 |
-| **Versión** | 1.0 |
+| **Módulo** | Desarrollo Web en Entorno Cliente                    |
+| **Centro** | IES Juan Garcia Valdemora                            |
+| **Fecha** | 14 de noviembre de 2026                              |
+| **Versión** | 1.0                                                  |
 
 </div>
 

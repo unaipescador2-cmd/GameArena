@@ -57,10 +57,10 @@ let tournaments = [];  // torneos      -> GET /torneos
    ===================================================================== */
 
 const DECORACION = {
-  "valorant":          { short: "VALO\nRANT",         bg: "#613d3b", fg: "#f2b8ab", description: "Precisión, estrategia y trabajo coordinado. Encuentra las competiciones de Valorant organizadas en GameArena." },
+  "valorant":          { short: "VALORANT",         bg: "#613d3b", fg: "#f2b8ab", description: "Precisión, estrategia y trabajo coordinado. Encuentra las competiciones de Valorant organizadas en GameArena." },
   "league of legends": { short: "LEAGUE\nOF LEGENDS", bg: "#243f44", fg: "#d5c48d", description: "La estrategia se encuentra con la competición. Consulta los torneos de League of Legends y sus participantes." },
   "rocket league":     { short: "ROCKET\nLEAGUE",     bg: "#314b69", fg: "#d4e6fc", description: "Velocidad, precisión y goles imposibles. Explora las competiciones de Rocket League." },
-  "fortnite":          { short: "FORT\nNITE",         bg: "#534936", fg: "#f6d886", description: "Una nueva oportunidad en cada partida. Descubre los torneos de Fortnite." },
+  "fortnite":          { short: "FORTNITE",         bg: "#534936", fg: "#f6d886", description: "Una nueva oportunidad en cada partida. Descubre los torneos de Fortnite." },
   "ea sports fc":      { short: "EA\nSPORTS FC",      bg: "#31533e", fg: "#d2f36b", description: "El siguiente partido empieza aquí. Participa en las competiciones de EA Sports FC de la comunidad." }
 };
 
